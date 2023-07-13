@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cate {
+    color: rgb(221, 40, 40);
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.parte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tar {
+    width: 25%;
+    height: 300px;
+    margin: 40px;
+    text-align: center;
+}
+
+/*.img {
+    
+    border-radius: 100%;
+    border: 5px solid #fff;
+}
+*/
+.nombreC {
+    color: #fff;
+    background-color:  rgb(204, 29, 29);
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    border-radius: 100%;
+    width: 60%;
+    height: 13%;
+}
